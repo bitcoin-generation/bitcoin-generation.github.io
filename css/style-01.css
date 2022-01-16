@@ -6,8 +6,8 @@ body {
 }
 
 /* xoay logo */
-.app-logo {
-    animation: app-logo-spin infinite 1s linear;
+.app-logo, .glyphicon-refresh {
+    animation: app-logo-spin infinite 2s linear;
 }
 @keyframes app-logo-spin {
     from { transform: rotate(0deg); }
