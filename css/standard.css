@@ -1,0 +1,25 @@
+body { 
+  background:#fff url(../images/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#X00WrapperLogin, #X00WrapperMain {
+  margin: 20px auto;
+  width: 700px;
+}
+#X00ImageHeader {
+  max-width: 100%;
+}
+@media (max-width: 767px) { 
+  #X00WrapperLogin, #X00WrapperMain {
+    width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  #X00WrapperLogin, #X00WrapperMain {
+    width: 95%;
+  }
+}
