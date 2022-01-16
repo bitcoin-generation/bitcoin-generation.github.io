@@ -1,0 +1,591 @@
+.section-third {
+    background: url(../img/sectionthirdbg.jpg) no-repeat center bottom fixed;
+    padding: 70px 0 0 0
+}
+
+.section-third h1 {
+    text-align: center;
+    font-size: 4.5em;
+    color: #ffcc05;
+    text-shadow: 3px 3px 0 #353535;
+    margin-bottom: 30px
+}
+
+.X00Container {
+    background: rgba(8, 13, 31, .85);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(78, 190, 255, .4);
+    -moz-box-shadow: 0 0 10px 0 rgba(78, 190, 255, .4);
+    box-shadow: 0 0 10px 0 rgba(78, 190, 255, .4);
+    position: relative;
+    z-index: 20;
+    padding: 20px
+}
+
+.X00ChatEntry {
+    margin-bottom: 10px
+}
+
+.X00EntryUserName {
+    font-weight: 400;
+    color: #4ebeff
+}
+
+.X00EntryContent {
+    margin-left: 5px
+}
+
+#X00ContainerChat {
+    color: #3b3b3b;
+    position: relative;
+    width: 100%;
+    font-weight: 400
+}
+
+#X00ContainerOverlay {
+    background: rgba(0, 0, 0, .7);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10
+}
+
+#X00ContainerChatUserName {
+    border: 1px solid #43a6d1;
+    background: rgba(25, 25, 25, .88);
+    display: none;
+    left: 50%;
+    margin: -80px 0 0 -200px;
+    position: absolute;
+    width: 375px;
+    top: 50%;
+    z-index: 5;
+    border-radius: 2px;
+    padding: 20px
+}
+
+.X00ChatEntry {
+    margin-bottom: 6px
+}
+
+#X00ChatHeading {
+    background: transparent 0 0 no-repeat;
+    font-size: 1em;
+    padding-bottom: 20px;
+    text-align: center
+}
+
+#X00ContainerChatContent {
+    color: white;
+    font-weight: 100
+}
+
+#X00ChatContent {
+    font-size: 13px;
+    height: 213px;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #43a6d1
+}
+
+#X00ContainerChatControls {
+    padding: 20px 0 0 0
+}
+
+#X00InputChat {
+    width: 100%;
+    font-size: 1em !important
+}
+
+#txInput,
+#X00InputChat {
+    resize: none
+}
+
+#chat_table {
+    width: 100%
+}
+
+#chat_table * {
+    font-size: 13px;
+    font-weight: none
+}
+
+#chat_table tr td:first-child {
+    padding-left: 10px;
+    width: 90px
+}
+
+#X00ButtonChat,
+#X00ButtonChatUserName {
+    background: #4ebeff;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.foot {
+    width: 100%;
+    left: 50%;
+    margin-left: -50%;
+    color: #777;
+    position: relative;
+    bottom: 5px;
+    padding: 5px 30px;
+    font-size: .8em;
+    margin-top: 50px
+}
+
+.foot span.shortenedspan {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    text-align: center
+}
+
+.yellow_text {
+    color: #4ebeff
+}
+
+.button-pop {
+    margin: 30px 0 50px
+}
+
+.generator-verification {
+    display: none
+}
+
+.policy-links {
+    margin-bottom: 10px
+}
+
+.popup-link,
+.popup-link:visited {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: inline-block
+}
+
+.popup-link:hover,
+.popup-link:focus {
+    color: #ffcc05
+}
+
+.pp-sep {
+    color: #777;
+    margin: 0 5px;
+    display: inline-block
+}
+
+.tos-popup-wrapper,
+.pp-popup-wrapper,
+.contact-popup-wrapper {
+    max-width: 900px;
+    background: #fff;
+    padding: 30px 40px !important;
+    margin: 0 auto;
+    color: #353535
+}
+
+.popup-wrapper h1 {
+    margin-top: 30px !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700
+}
+
+.popup-wrapper h2 {
+    color: #353535;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+.popup-wrapper input[type="text"],
+.popup-wrapper input,
+.popup-wrapper textarea {
+    font-size: 16px !important;
+    background: #eee !important;
+    padding: 5px 10px !important;
+    font-weight: 700;
+    min-height: 46px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .075) inset !important;
+    border: none !important
+}
+
+@media screen and (max-width:1690px) {
+    .recent-activity {
+        max-width: 200px
+    }
+}
+
+@media screen and (max-width:1620px) {
+    .recent-activity {
+        max-width: 1170px;
+        padding: 10px 15px;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 20px auto 0 auto
+    }
+
+    .recent-activity h2 {
+        font-size: 2em !important;
+        text-align: center;
+        margin-bottom: 10px
+    }
+
+    .recent-activity h3 {
+        font-size: 1.5em;
+        margin-top: 0
+    }
+
+    .recgenvalue {
+        font-size: 1.2em
+    }
+
+    .recgenvalue:before {
+        left: -5px;
+        top: 4px
+    }
+
+    .recent-activity .subheader {
+        display: inline-block;
+        margin-bottom: 2.5px;
+        margin-left: 3px;
+        margin-right: 3px
+    }
+
+    .country-flag {
+        margin-right: 5px
+    }
+}
+
+@media screen and (max-width:1200px) {
+    header h1 {
+        font-size: 3.8em
+    }
+
+    .pokemon-button {
+        font-size: 1.6em
+    }
+
+    .instructions-row-content {
+        font-size: 1.5em
+    }
+
+    .recent-activity {
+        max-width: 970px;
+        padding: 10px 15px;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 20px auto 0 auto
+    }
+}
+
+@media screen and (max-width:992px) {
+    .section-first h2 {
+        text-align: center
+    }
+
+    .instructions-row-content {
+        background: rgba(243, 243, 243, .9);
+        padding: 20px 15px;
+        font-size: 1.6em;
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        float: left
+    }
+
+    .step-wrapp {
+        background: rgba(238, 238, 238, .9);
+        padding: 20px 15px;
+        font-size: 1.6em;
+        position: relative;
+        display: inline-block;
+        width: 15%;
+        float: left;
+        text-align: right;
+        font-weight: 300
+    }
+
+    .section-second h1,
+    .section-third h1 {
+        font-size: 4em
+    }
+
+    li.pokecoin-select {
+        width: 32.5%
+    }
+
+    .recent-activity {
+        max-width: 750px;
+        padding: 10px 15px;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 20px auto 0 auto
+    }
+
+    .recent-activity h3 {
+        font-size: 1.4em;
+        margin-top: 0
+    }
+
+    .inst-wrapp ul {
+        margin: 0 auto;
+        padding: 0
+    }
+
+    .inst-wrapp ul li {
+        margin: 0
+    }
+
+    .status-wrapper {
+        font-size: .9em
+    }
+}
+
+@media (max-width:768px) {
+    header p {
+        font-weight: 700;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 1)
+    }
+
+    .section-second h1,
+    .section-third h1 {
+        font-size: 3em
+    }
+
+    .instructionscolwrapp,
+    .generator-main-wrapper,
+    .X00Container {
+        width: 100%;
+    }
+
+    .recent-activity {
+        max-width: 95%;
+        padding: 10px 15px;
+        margin: 20px auto 0 auto
+    }
+}
+
+@media (max-width:700px) {
+    .recent-activity h3 {
+        font-size: 1.2em;
+        margin-top: 0
+    }
+
+    .instructions-row-content {
+        background: rgba(243, 243, 243, .9);
+        padding: 20px 15px;
+        font-size: 1.4em;
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        float: left
+    }
+
+    .step-wrapp {
+        background: rgba(238, 238, 238, .9);
+        padding: 20px 15px;
+        font-size: 1.4em;
+        position: relative;
+        display: inline-block;
+        width: 15%;
+        float: left;
+        text-align: right;
+        font-weight: 300
+    }
+
+    .section-second h1,
+    .section-third h1 {
+        font-size: 2.5em
+    }
+
+    .pokecoin-select {
+        padding: 25px 25px
+    }
+}
+
+@media (max-width:600px) {
+    .instructions-row-content {
+        background: rgba(243, 243, 243, .9);
+        padding: 20px 15px;
+        font-size: 1.3em;
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        float: left
+    }
+
+    .step-wrapp {
+        background: rgba(238, 238, 238, .9);
+        padding: 20px 15px;
+        font-size: 1.3em;
+        position: relative;
+        display: inline-block;
+        width: 15%;
+        float: left;
+        text-align: right;
+        font-weight: 300
+    }
+
+    .section-second h2 {
+        font-size: 1.6em;
+        text-align: center
+    }
+
+    li.pokecoin-select {
+        width: 100%
+    }
+}
+
+@media (max-width:567px) {
+    .recent-activity h2 {
+        font-size: 1.6em !important
+    }
+
+    .instructions-row-content {
+        background: rgba(243, 243, 243, .9);
+        padding: 20px 15px;
+        font-size: 1.2em;
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        float: left
+    }
+
+    .step-wrapp {
+        background: rgba(238, 238, 238, .9);
+        padding: 20px 15px;
+        font-size: 1.2em;
+        position: relative;
+        display: inline-block;
+        width: 20%;
+        float: left;
+        text-align: right;
+        font-weight: 300
+    }
+
+    .hideonr {
+        display: none
+    }
+}
+
+@media (max-width:500px) {
+    section.section-first {
+        background: #fff
+    }
+
+    header h1 {
+        font-size: 3em
+    }
+
+    .button-part {
+        display: none
+    }
+
+    .button {
+        padding: 20px 35px !important
+    }
+
+    .switch-wrapper label.switchlabel,
+    .onoffswitch {
+        display: block
+    }
+
+    .switch-wrapper label.switchlabel {
+        top: 0
+    }
+
+    .info-wrap {
+        margin-top: 20px
+    }
+}
+
+@media (max-width:400px) {
+
+    .section-third,
+    .section-first,
+    .section-second {
+        padding-top: 40px
+    }
+
+    .recent-activity h2 {
+        font-size: 1.2em !important
+    }
+
+    .section-second h2 {
+        font-size: 1.2em
+    }
+
+    header p {
+        font-size: 1.4em
+    }
+
+    .generator-verification h1 {
+        font-size: 22px
+    }
+
+    .pokemon-button {
+        font-size: 1.4em
+    }
+
+    .generator-verification h1 {
+        font-size: 24px
+    }
+}
+
+@media (max-width:375px) {
+    li.pokecoin-select {
+        font-size: 15px
+    }
+
+    .button {
+        font-size: 18px
+    }
+
+    .generator-verification h1 {
+        font-size: 20px
+    }
+
+    .pokemon-button {
+        font-size: 1.2em
+    }
+
+    .generator-verification h1 {
+        font-size: 20px
+    }
+}
+
+@media (max-width:360px) {
+
+    .section-second h1,
+    .section-third h1 {
+        font-size: 1.6em
+    }
+
+    .generator-verification h1 {
+        font-size: 18px
+    }
+
+    .generator-verification h1 {
+        font-size: 18px
+    }
+}
