@@ -1,0 +1,189 @@
+body {
+	font-family: 'Ubuntu-Light', sans-serif;
+	background-color: #F8F8F8;
+	-webkit-font-smoothing: antialiased;
+    padding-right: 0px !important;
+}
+
+/* xoay logo */
+.app-logo {
+    animation: app-logo-spin infinite 1s linear;
+}
+@keyframes app-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+#X00WrapperMain {
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+#X00ModalErrorAddress , #X00Modal01{
+	padding-right: 0px !important;
+}
+
+.modal-content {
+	left: 0px !important;
+}
+
+.output {
+	display: inline;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: orange;
+	margin: 10px 0
+}
+
+.terminal-bg {
+	background: #000;
+	padding: 30px;
+	border-radius: 30px;
+	position: relative;
+	z-index: 1
+}
+
+#PriceBox {
+	display: none
+}
+
+.spinner {
+	margin: 10px auto 0;
+	width: 70px;
+	text-align: center
+}
+
+.spinner>div {
+	width: 18px;
+	height: 18px;
+	background-color: #333;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both
+}
+
+.spinner .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s
+}
+
+.spinner .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0)
+	}
+	40% {
+		-webkit-transform: scale(1)
+	}
+}
+
+@keyframes sk-bouncedelay {
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0);
+		transform: scale(0)
+	}
+	40% {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
+
+@media (min-width:768px) {
+	.modal-dialog {
+		width: 480px
+	}
+	.floating-logo {
+		position: fixed;
+		left: 20px;
+		bottom: 20px;
+		opacity: .6
+	}
+	.floating-logo img {
+		width: 200px!important
+	}
+	.floating-etrust {
+		position: fixed;
+		left: 20px;
+		bottom: 20px;
+		opacity: .6
+	}
+	.floating-etrust img {
+		width: 100px
+	}
+}
+
+@media (max-width:768px) {
+	.floating-logo {
+		display: none
+	}
+	.floating-etrust {
+		display: none
+	}
+}
+
+.terminal {
+	white-space: pre;
+	height: 200px;
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: .2px
+}
+
+#b {
+	display: none
+}
+
+.terminal span {
+	color: #5CB85C
+}
+
+.terminal b {
+	color: #D94343;
+	font-weight: 600
+}
+
+#qr-address-js img{
+	display: none!important;
+}
+#qr-address-js canvas{
+	display: block!important;
+    background: #fff;
+    padding: 15px;
+    margin: auto;
+}
+.hidden-txt{color:#fff0}
+.text-center{
+  text-align:center
+}
+.mt30{
+  margin-top:30px!important
+}
+.pt30{
+  padding-top:30px!important
+}
+.z-index-0 {
+	z-index: 0 !important;
+}
+.hiden {
+	visibility: hidden !important;
+    display: none !important;
+}
+.xtime {
+	text-align: left!important;
+	margin: 8px 0; /* If using html endcode */
+}
+.progress-bar {
+    height: 20px; /* If using html endcode */
+ }
